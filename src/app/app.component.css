@@ -4,8 +4,8 @@
     position: sticky;
     /* position: absolute; */
     height: 50px;
-    top: 0; /* Distance from the top of the viewport */
-    z-index: 1000; /* Ensures the row stays on top of other content */
+    top: 0;
+    z-index: 1000;
     background-color: rgb(48, 50, 60);
     /* border-radius: 20px; */
 }

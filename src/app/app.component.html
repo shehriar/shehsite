@@ -1,11 +1,13 @@
 <div #appComponent class = "top-row">
-  <button>Home</button>
+  <button (click)="onHomeClick()">Home</button>
   <button>Projects</button>
-  <button>Education</button>
+  <button (click)="onEducationClick()">Education</button>
   <button>About Me</button>
 </div>
 
 <app-home></app-home>
+<hr width="90%" color="grey">
+<app-projects></app-projects>
 <hr width="90%" color="grey">
 <app-education></app-education>
 

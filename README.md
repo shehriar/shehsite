@@ -1,4 +1,6 @@
 # Shehsite
+to deploy onto github page do command: ng build --output-path docs --base-href /shehsite/
+then push to git
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
 

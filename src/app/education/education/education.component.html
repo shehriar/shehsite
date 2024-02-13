@@ -1,4 +1,4 @@
-<div class = "parent-container" style = "border-radius: 10px;">
+<div #educationComponent class = "parent-container" style = "border-radius: 10px;">
     <div *ngIf = "selectedUniversity == ''">
         <div class = "university-container-horizontal">
             <div id = "UICBox"class = "university-box-horizontal" (click)="clickButton('UIC')">
@@ -9,7 +9,7 @@
                 <p class = "university-location-text">Chicago, Illinois, USA</p>
             </div>
             <div style = "padding-bottom: 10%;"></div>
-            <div id = "HUBox" class = "university-box-horizontal" (click)="clickButton('HU')">
+            <div id = "HUBox" class = "university-box-horizontal" style = "margin-left: 310px;" (click)="clickButton('HU')">
                 <img class = "university-image" src="assets/education_assets/huImage.png">
                 <hr width="90%" color="grey">
                 <h3 class = "university-text">Habib University</h3>

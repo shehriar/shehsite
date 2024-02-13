@@ -5,10 +5,17 @@ import { Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class ScrollService {
-  private scrollToCarSearchSource = new Subject<void>();
-  scrollToCarSearchObservable = this.scrollToCarSearchSource.asObservable();
+  private scrollToEducationSource = new Subject<void>();
+  scrollToEducationObservable = this.scrollToEducationSource.asObservable();
 
-  scrollToSearchCar() {
-    this.scrollToCarSearchSource.next();
+  scrollToEducation() {
+    this.scrollToEducationSource.next();
+  }
+
+  private scrollToHomeSource = new Subject<void>();
+  scrollToHomeObservable = this.scrollToHomeSource.asObservable();
+
+  scrollToHome() {
+    this.scrollToHomeSource.next();
   }
 }

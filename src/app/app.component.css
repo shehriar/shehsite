@@ -1,8 +1,13 @@
 .top-row{
     display: flex;
     justify-content: flex-end;
-    position: static;
-    height: 80px;
+    position: sticky;
+    /* position: absolute; */
+    height: 50px;
+    top: 0; /* Distance from the top of the viewport */
+    z-index: 1000; /* Ensures the row stays on top of other content */
+    background-color: rgb(48, 50, 60);
+    /* border-radius: 20px; */
 }
 
 button{
@@ -13,6 +18,7 @@ button{
     font-size: 14px;
     margin-right: 2%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 button:hover{

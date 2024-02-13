@@ -1,15 +1,17 @@
-<div #appComponent class = "top-row">
-  <button (click)="onHomeClick()">Home</button>
-  <button>Projects</button>
-  <button (click)="onEducationClick()">Education</button>
-  <button>About Me</button>
-</div>
+<div #appComponent>
+  <div class = "top-row">
+    <button (click)="onHomeClick()">Home</button>
+    <button (click)="onProjectsClick()">Projects</button>
+    <button (click)="onEducationClick()">Education</button>
+    <button>About Me</button>
+  </div>
 
-<app-home></app-home>
-<hr width="90%" color="grey">
-<app-projects></app-projects>
-<hr width="90%" color="grey">
-<app-education></app-education>
+  <app-home></app-home>
+  <hr width="90%" color="grey">
+  <app-projects></app-projects>
+  <hr width="90%" color="grey">
+  <app-education></app-education>
+</div>
 
 <main id = "content">
   <router-outlet></router-outlet>

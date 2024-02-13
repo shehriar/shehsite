@@ -18,4 +18,11 @@ export class ScrollService {
   scrollToHome() {
     this.scrollToHomeSource.next();
   }
+
+  private scrollToProjectsSource = new Subject<void>();
+  scrollToProjectsObservable = this.scrollToProjectsSource.asObservable();
+
+  scrollToProjects() {
+    this.scrollToProjectsSource.next();
+  }
 }

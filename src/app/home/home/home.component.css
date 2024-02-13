@@ -1,0 +1,36 @@
+.home{
+    background-color: transparent;
+    height: 70vh;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.row{
+    display: flex;
+}
+
+.sheh-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* background-color: rgb(56, 55, 84); */
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row .column .row img{
+    height: 50px;
+    width: 50px;
+    margin-right: 2%;
+}
+
+.row .column h4{
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+}

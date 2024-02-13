@@ -36,3 +36,7 @@
     font-family:'Times New Roman', Times, serif;
     margin-bottom: 10px;
 }
+
+a{
+    cursor: pointer;
+}

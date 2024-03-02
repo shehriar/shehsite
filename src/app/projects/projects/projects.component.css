@@ -36,7 +36,7 @@
     display: block;
     border-radius: 20px;
     cursor: pointer;
-    height: 300px;
+    /* height: 300px; */
 }
 .project-box:hover{
     transform: scale(1.02);
